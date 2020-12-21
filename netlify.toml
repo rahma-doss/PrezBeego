@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/beego.html"
+  status = 200
