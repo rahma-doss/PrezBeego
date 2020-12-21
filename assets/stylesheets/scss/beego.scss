@@ -413,9 +413,12 @@ html {
                       background-color: #ED6C6D;
                       border-radius: 5rem;
                       height: 8rem;
-                      width: 60rem;
+                      width: 52rem;
                       display: flex;
                       flex-direction: column;
+                      @media (max-width: 1199px) {
+                       width: 70%;
+                       }
                       .title-of-description{
                           color: #131D32;
                           font-size: 2rem;
@@ -437,10 +440,14 @@ html {
                       background-color: #ED6C6D;
                       border-radius: 5rem;
                       height: 8rem;
-                      width: 60rem;
-
+                      width: 52rem;
                       display: flex;
                       flex-direction: column;
+                      @media (max-width: 1199px) {
+                        width: 70%;
+                        }
+
+                        
                       .title-of-description{
                           color: #131D32;
                           font-size: 2rem;
